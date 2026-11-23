@@ -1,0 +1,8 @@
+flat_type_id,flat_type,room_count,core_rent_analysis_flag
+1,1_ROOM,1,False
+2,2_ROOM,2,False
+3,3_ROOM,3,True
+4,4_ROOM,4,True
+5,5_ROOM,5,True
+6,EXECUTIVE,,False
+7,MULTI_GENERATION,,False

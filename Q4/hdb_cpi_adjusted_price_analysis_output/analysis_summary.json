@@ -1,0 +1,39 @@
+{
+  "database_source": "SQLite (q4_validation.sqlite)",
+  "sql_only_analysis_input": true,
+  "queried_transactions": 234293,
+  "queried_quarters": 38,
+  "potential_duplicate_flags": 631,
+  "composition_adjustment": {
+    "stable_strata_n": 69,
+    "stable_main_period_transactions": 202394,
+    "minimum_cell_n_each_quarter": 10
+  },
+  "main_period": "2017-Q1 to 2025-Q4",
+  "latest_supplement_end": "2026-Q2",
+  "market_median_resale_nominal_growth_pct": 52.4390243902439,
+  "market_median_resale_real_growth_pct": 27.545235226715747,
+  "market_median_ppsm_nominal_growth_pct": 50.116739446062894,
+  "market_median_ppsm_real_growth_pct": 25.72446470230556,
+  "adjusted_nominal_growth_pct": 49.95669201598989,
+  "adjusted_real_growth_pct": 25.593629368583915,
+  "cpi_change_pct": 19.356695830624492,
+  "adjusted_nominal_cagr_pct": 4.739472668031075,
+  "adjusted_real_cagr_pct": 2.6385679752802815,
+  "share_of_log_nominal_growth_remaining_after_cpi_pct": 56.24250949620664,
+  "latest_2026Q2_adjusted_nominal_growth_since_2017Q1_pct": 49.65552408761171,
+  "latest_2026Q2_adjusted_real_growth_since_2017Q1_pct": 24.225951644712286,
+  "real_trend_newey_west": {
+    "quarterly_log_slope": 0.008729340400104254,
+    "hac_se": 0.0010932046874409626,
+    "z_normal_approx": 7.985092362289814,
+    "p_value_normal_approx": 1.4041712959691587e-15,
+    "annualized_trend_pct": 3.5534130380391993,
+    "annualized_ci_low_pct": 2.669677773595458,
+    "annualized_ci_high_pct": 4.4447551055289525,
+    "observations_quarters": 36,
+    "hac_lags": 4
+  },
+  "answer": "Yes. The CPI-adjusted increase remains clear, but inflation explains a material part of the nominal increase. This is a descriptive market trend, not a causal claim.",
+  "duplicate_sensitivity_real_growth_difference_pp": 0.11720865054611806
+}

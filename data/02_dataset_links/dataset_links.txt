@@ -1,0 +1,43 @@
+HDB小组研究——使用的数据集与官方链接
+
+一、2017年以来HDB转售交易
+名称：Resale Flat Prices Based on Registration Date From Jan-2017 Onwards
+用途：转售价、每平方米价格、面积、楼层、户型、租约开始年份和剩余租期。
+本项目输入文件名：resale.csv
+项目使用的快照范围：2017-01至2026-10
+官方链接：https://data.gov.sg/datasets/d_8b84c4ee58e3cfc0ece0d773c8ca6abc/view
+
+二、HDB楼栋属性
+名称：HDB Property Information
+用途：用Block和Street补充楼栋建成年份、最高楼层、总单位数及各户型单位数。
+本项目输入文件名：property.csv
+官方链接：https://data.gov.sg/datasets/d_17f5382f26140b1fdae0ba2ef6239d2f/view
+
+三、HDB出租批准明细
+名称：Renting Out of Flats 2021 onwards
+用途：2021年以来按月份、Town、Block和户型记录的申报月租。
+本项目输入文件名：rent_micro.csv
+项目使用的快照范围：2021-01至2026-09
+官方链接：https://data.gov.sg/datasets/d_c9f57187485a850908655db0e8cfe651/view
+注意：租金由业主申报，HDB注明有关金额未经过核实。
+
+四、HDB季度中位租金
+名称：Median Rent by Town and Flat Type
+用途：按Town、户型和季度计算市场层面的估算毛租金回报率。
+本项目输入文件名：rent_median.csv
+项目使用的快照范围：2005-Q2至2026-Q2；研究使用2017年以后数据。
+官方链接：https://data.gov.sg/datasets/d_23000a00c52996c55106084ed0339566/view
+
+五、新加坡月度消费者价格指数
+名称：Consumer Price Index (CPI), Monthly, 2024 As Base Year
+序列：All Items
+用途：把名义转售价和租金调整为2024年不变价格。
+本项目输入文件名：cpi_monthly.csv
+项目使用的快照范围：研究期内2017-01至2026-08。
+官方链接：https://data.gov.sg/datasets/d_bdaff844e3ef89d39fceb962ff8f0791/view
+
+数据版本说明
+1. 上述链接指向会持续更新的官方数据页面，未来重新下载时，记录数可能与本交付版本不同。
+2. 本交付数据由2026-10-07下载的快照生成。
+3. 为保证完全复现，应同时保存当次下载的五份原始CSV；本交付包主要交付处理结果、代码和数据来源链接。
+4. 2026-09及以后月份在本次CPI快照中尚无指数，因此这些月份只保留名义金额，实值字段为空。

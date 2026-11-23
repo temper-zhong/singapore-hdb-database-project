@@ -1,0 +1,9 @@
+{
+  "database_name": "hdb_project",
+  "source": "Shared database supplied with the team Q1 materials; matching Q3/Q4 copies",
+  "uncompressed_filename": "hdb_project.sql",
+  "uncompressed_bytes": 64199397,
+  "uncompressed_sha256": "072845737cad67481c16424f2feba405ff79aacb8f5db1fca04fcd01f973ffaf",
+  "compressed_sha256": "5860f9819eded02a48ffff6fc32f65efe99b47faf23ee98eff0897f3b7442988",
+  "account_credentials_included": false
+}

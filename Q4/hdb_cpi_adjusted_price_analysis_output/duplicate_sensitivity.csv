@@ -1,0 +1,3 @@
+﻿scenario,queried_transactions,potential_duplicate_transactions,stable_strata_n,nominal_growth_2017Q1_to_2025Q4_pct,real_growth_2017Q1_to_2025Q4_pct,real_growth_difference_vs_all_pp
+All queried transactions,234293,631,69,49.95669201598989,25.593629368583915,0.0
+Exclude potential duplicate flags,233662,0,69,50.09582391487064,25.710838019130033,0.11720865054611806

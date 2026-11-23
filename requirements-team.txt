@@ -1,0 +1,3 @@
+-r Q4/requirements.txt
+matplotlib>=3.7
+mysql-connector-python>=8.0

@@ -1,0 +1,8 @@
+flat_type,total_transactions,max_quarterly_transactions,quarters_with_transactions,quarters_meeting_trend_threshold,included_in_trend_charts
+1_ROOM,87,6,35,0,False
+2_ROOM,4876,241,38,38,True
+3_ROOM,55796,1903,38,38,True
+4_ROOM,99470,3373,38,38,True
+5_ROOM,57302,2155,38,38,True
+EXECUTIVE,16676,640,38,38,True
+MULTI_GENERATION,86,7,29,0,False

@@ -1,0 +1,42 @@
+{
+  "database": "hdb_project",
+  "database_server": "MySQL/MariaDB",
+  "price_rows": 134478,
+  "price_blocks": 9599,
+  "price_potential_duplicates": 179,
+  "yield_rows_all_eligible": 9431,
+  "yield_rows_core_345": 8668,
+  "yield_blocks_core_345": 4046,
+  "price_effects_pct_vs_ge80": [
+    {
+      "group": "Y60_TO_79",
+      "estimate_display": -15.596897871008641,
+      "ci_low_display": -16.06512449635593,
+      "ci_high_display": -15.126059266178826,
+      "p_value_normal_approx": 2.2250738585072014e-308
+    },
+    {
+      "group": "LT_60",
+      "estimate_display": -22.87795561839757,
+      "ci_low_display": -23.518987024170958,
+      "ci_high_display": -22.231551359321134,
+      "p_value_normal_approx": 2.2250738585072014e-308
+    }
+  ],
+  "yield_effects_pp_vs_ge80": [
+    {
+      "group": "Y60_TO_79",
+      "estimate_display": 0.8099168660537805,
+      "ci_low_display": 0.7462721111548686,
+      "ci_high_display": 0.8735616209526925,
+      "p_value_normal_approx": 2.5980717634881605e-137
+    },
+    {
+      "group": "LT_60",
+      "estimate_display": 1.7231070160686917,
+      "ci_low_display": 1.6430045924842536,
+      "ci_high_display": 1.8032094396531297,
+      "p_value_normal_approx": 2.2250738585072014e-308
+    }
+  ]
+}
